@@ -1,0 +1,79 @@
+.loader-03 {
+    border-radius: 50%;
+    border-top: 2.5rem rgba($primary, 0.75) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    -webkit-animation: spSlices 1s infinite linear;
+    animation: spSlices 1s infinite linear;
+        width: 5rem;
+    height: 5rem;
+    clear: both;
+    margin: 20px auto;
+}
+
+
+@-webkit-keyframes spSlices {
+  0% {
+    border-top: 2.5rem rgba($primary, 0.75) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+  }
+  25% {
+    border-top: 2.5rem rgba($primary, 0.25) solid;
+    border-right: 2.5rem rgba($primary, 0.75) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+  }
+  50% {
+    border-top: 2.5rem rgba($primary, 0.25) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.75) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+  }
+  75% {
+    border-top: 2.5rem rgba($primary, 0.25) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-left: 2.5rem rgba($primary, 0.75) solid;
+  }
+  100% {
+    border-top: 2.5rem rgba($primary, 0.75) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+  }
+}
+@keyframes spSlices {
+  0% {
+    border-top: 2.5rem rgba($primary, 0.75) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+  }
+  25% {
+    border-top: 2.5rem rgba($primary, 0.25) solid;
+    border-right: 2.5rem rgba($primary, 0.75) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+  }
+  50% {
+    border-top: 2.5rem rgba($primary, 0.25) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.75) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+  }
+  75% {
+    border-top: 2.5rem rgba($primary, 0.25) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-left: 2.5rem rgba($primary, 0.75) solid;
+  }
+  100% {
+    border-top: 2.5rem rgba($primary, 0.75) solid;
+    border-right: 2.5rem rgba($primary, 0.25) solid;
+    border-bottom: 2.5rem rgba($primary, 0.25) solid;
+    border-left: 2.5rem rgba($primary, 0.25) solid;
+  }
+}
