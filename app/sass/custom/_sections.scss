@@ -8,6 +8,7 @@ section {
     position: relative;
     a {
         color:$body-color;
+        font-weight: $font-weight-normal;
     }
 }
 
@@ -26,6 +27,7 @@ section {
 .download-container {
     a {
         color:$body-color;
+        font-weight: $font-weight-normal;
     }
 }
 

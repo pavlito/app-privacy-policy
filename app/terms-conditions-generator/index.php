@@ -37,12 +37,12 @@
             <!-- header -->
             <?php include('../_header.php'); ?>
             
-                <section class="sect-generator-hero bg-light">
+                <section class="sect-generator-hero">
                     <!-- headline and form -->
                     <div class="container">
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-6">
-                                <h1>Terms & Conditions Generator</h1>
+                                <h1 class="display-4">Terms & Conditions <span class="text-primary">Generator</span></h1>
                             </div>
                             <div class="col-lg-5 offset-lg-1 add-z">
                                 <div id="wizard" class="wizard mt-5 mt-lg-0">

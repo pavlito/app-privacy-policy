@@ -37,12 +37,12 @@
             <!-- header -->
             <?php include('../_header.php'); ?>
             
-                <section class="generator-hero bg-light">
+                <section class="generator-hero">
                     <!-- headline and form -->
                     <div class="container">
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-6 text-white">
-                                <h1>Privacy Policy Generator</h1>
+                                <h1 class="display-4">AppPrivacyPolicy <span class="text-primary">Generator</span></h1>
                             </div>
                             <div class="col-lg-5 offset-lg-1 add-z">
                                 <div id="wizard" class="wizard mt-5 mt-lg-0">

@@ -1,79 +1,21 @@
 .loader-03 {
-    border-radius: 50%;
-    border-top: 2.5rem rgba($primary, 0.75) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    -webkit-animation: spSlices 1s infinite linear;
-    animation: spSlices 1s infinite linear;
-        width: 5rem;
-    height: 5rem;
-    clear: both;
-    margin: 20px auto;
+  display:inline-block;
+  width: 0;
+  height:0;
+  margin-top:3rem;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-bottom: 2rem solid $primary;
+  border-top: 2rem solid $blue;
+   -webkit-animation: loader5 1.2s ease-in-out infinite alternate;
+   animation: loader5 1.2s ease-in-out infinite alternate;
 }
 
-
-@-webkit-keyframes spSlices {
-  0% {
-    border-top: 2.5rem rgba($primary, 0.75) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-  }
-  25% {
-    border-top: 2.5rem rgba($primary, 0.25) solid;
-    border-right: 2.5rem rgba($primary, 0.75) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-  }
-  50% {
-    border-top: 2.5rem rgba($primary, 0.25) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.75) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-  }
-  75% {
-    border-top: 2.5rem rgba($primary, 0.25) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-left: 2.5rem rgba($primary, 0.75) solid;
-  }
-  100% {
-    border-top: 2.5rem rgba($primary, 0.75) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-  }
+@keyframes loader5 {
+   from {transform: rotate(0deg);}
+   to {transform: rotate(720deg);}
 }
-@keyframes spSlices {
-  0% {
-    border-top: 2.5rem rgba($primary, 0.75) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-  }
-  25% {
-    border-top: 2.5rem rgba($primary, 0.25) solid;
-    border-right: 2.5rem rgba($primary, 0.75) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-  }
-  50% {
-    border-top: 2.5rem rgba($primary, 0.25) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.75) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-  }
-  75% {
-    border-top: 2.5rem rgba($primary, 0.25) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-left: 2.5rem rgba($primary, 0.75) solid;
-  }
-  100% {
-    border-top: 2.5rem rgba($primary, 0.75) solid;
-    border-right: 2.5rem rgba($primary, 0.25) solid;
-    border-bottom: 2.5rem rgba($primary, 0.25) solid;
-    border-left: 2.5rem rgba($primary, 0.25) solid;
-  }
+@-webkit-keyframes loader5 {
+   from {-webkit-transform: rotate(0deg);}
+   to {-webkit-transform: rotate(720deg);}
 }
