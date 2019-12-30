@@ -4,6 +4,7 @@
     position: relative;
 }
 
+
 .bg-form {
     background: red;
     width: 100%;
@@ -62,7 +63,7 @@
     background: $white;
     border-radius: $border-radius;
     border:1px solid $border-color;
-    // box-shadow: $box-shadow;
+    box-shadow: $box-shadow;
 
     .btn {
         &.btn-default {

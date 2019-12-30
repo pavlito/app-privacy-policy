@@ -4,6 +4,10 @@
     }
 }
 
+.btn-primary {
+	box-shadow: $btn-shadow;
+}
+
 .btn-link {
     font-weight: $btn-font-weight;
 }

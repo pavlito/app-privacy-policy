@@ -1,4 +1,12 @@
+html,body,.wrapper {
+    height: 100%;
+}
 
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 section {
     padding: 6rem 0;
@@ -8,7 +16,6 @@ section {
     position: relative;
     a {
         color:$body-color;
-        font-weight: $font-weight-normal;
     }
 }
 
